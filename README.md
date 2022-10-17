@@ -47,7 +47,7 @@
 
 ## Final Web App 
 
-**Final Web App >** [Link](ADD LINK HERE)
+[Final Web App](ADD LINK HERE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,9 +89,9 @@ The goal of this project is to implement a machine learning model that can deter
  
 ### 3. United States Smoking Percentages
 [Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
-[2018 adult smoking rate by state] (https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
-[2019 adult smoking rate by state] (https://www.cdc.gov/statesystem/cigaretteuseadult.html)
-[2020 adult smoking rate by state] (https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
+[2018 adult smoking rate by state](https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
+[2019 adult smoking rate by state](https://www.cdc.gov/statesystem/cigaretteuseadult.html)
+[2020 adult smoking rate by state](https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
 
 - Data Source: Center for Disease Control
 - Adults who reported that they currently smoked every day or some days. 
