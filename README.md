@@ -41,10 +41,15 @@
 
 ## Google Slides Link
 
-https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689
+**Download Presentation >** [Google Slide Presentation](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Final Web App 
+
+**Final Web App >** [Link](ADD LINK HERE)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Overview
 The purpose of this project is to use U.S. Cancer Statistics to analyze the relationship between cancer data and U.S. Income Per Capita. 
@@ -52,13 +57,8 @@ The purpose of this project is to use U.S. Cancer Statistics to analyze the rela
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Initial Thoughts
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## Topic
-When first forming our groups for the Final Project, the original proposal of working with a healthcare related topic and corresponding resources as some of our team members come from this background. 
+When first forming our groups for the Final Project, our initial thought was of working with a healthcare related topic and corresponding resources as some of our team members come from this background. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,25 +70,33 @@ The goal of this project is to implement a machine learning model that can deter
 
 
 ## Resources
-### 1. United States Cancer Statistics (USCS)
-
-- The preeminent source of data on cancer incidence is medical records. Medical professionals and staff at health care facilities pull data from patients' medical records. If the facility has its own cancer registry, they will enter the data there and send it to the national or state registry. Examples of these data sources include general practitioners office, radiation facilities, surgical centers and oncology laboratories. 
-- The cancer mortality statistics have been gathered based on information from death certificates filed within the 50 states, the district of Columbia, and Puerto Rico.
-
+### 1. United States Cancer Statistics (USCS) 
+[Link](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
+ 
+- Data Source: Center for Disease Control
+- The preeminent source of data on cancer incidence is medical records. Medical professionals and staff at health care facilities pull data from patients' medical records. If the facility has its own cancer registry, they will enter the data there and send it to the national or state registry. Examples of these data sources include general practitioners office, radiation facilities, surgical centers and oncology laboratories.
+- The cancer mortality statistics have been gathered based on information from death certificates filed within the 50 states, the District of Columbia, and Puerto Rico.
+ 
 ### 2. United States Per Capita Income
+[Link](https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=2)
 
-GDP and Personal Income Data - WANT A MORE DETAILED EXPLANATION ON THIS:
-
-1/ Census Bureau midyear population estimate. BEA produced intercensal annual state population statistics for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020. BEA developed intercensal population
-
-2/ Per capita personal income is total personal income divided by total midyear population. BEA produced intercensal population figures for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020 to create consistent time series that are used to prepare per capita personal income statistics. BEA used the Census Bureau Das Gupta method (see https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/intercensal/2000-2010-intercensal-estimates-methodology.pdf), modified to account for an extra leap year day, to produce the intercensal population figures that will be used until Census releases its official intercensal population data.
-
-Note. All dollar estimates are in millions of current dollars (not adjusted for inflation). Calculations are performed on unrounded data.
-
-Last updated: September 30, 2022--revised statistics for 2017-2021.
-
+- Data Source: Bureau of Economic Affairs, Mid-Year population estimate by the Census Bureau.
+- BEA produced intercensal annual state population statistics for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020. 
+- BEA used the Census Bureau Das Gupta modified method to account for an extra leap year day.
+- Per capita personal income is total personal income divided by the total mid-year population.
+- Note: All dollar estimates are in millions of current dollars (not adjusted for inflation). Calculations are performed on unrounded data.
+- Last updated: September 30, 2022--revised statistics for 2017-2021.
+ 
 ### 3. United States Smoking Percentages
+[Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
+[2018 adult smoking rate by state] (https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
+[2019 adult smoking rate by state] (https://www.cdc.gov/statesystem/cigaretteuseadult.html)
+[2020 adult smoking rate by state] (https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
 
+- Data Source: Center for Disease Control
+- Adults who reported that they currently smoked every day or some days. 
+- Percentages are weighted to reflect population characteristics. 
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -110,6 +118,10 @@ Questions answered as a result of this analysis:
 
 ## Machine Learning Model
 What model we used and if it worked. KEEP IN MIND WE DO NOT NEED TO KEEP USING THIS MODEL!
+
+### Lung Cancer Machine Learning Model Predictions
+1) At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
+2) For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
