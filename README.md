@@ -4,10 +4,10 @@
 
 
 ## Team Members
-- Ying Ko
-- Lindsey Maag
-- Caitlin Bighem
-- Mangesh Bore
+- Ying Ko - Machine Learning
+- Lindsey Maag - GitHub Repo
+- Caitlin Bighem - Presentation
+- Mangesh Bore - Database
 <br><br>
 
 ## Communication Protocols
