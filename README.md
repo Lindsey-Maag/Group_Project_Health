@@ -3,11 +3,11 @@
 # Group Project Health 
 
 
-## Team Members
-- Ying Ko
-- Lindsey Maag
-- Caitlin Bighem
-- Mangesh Bore
+## Team Members and Week 1 Roles
+- Ying Ko - Machine Learning Model
+- Lindsey Maag - Git Hub
+- Caitlin Bighem - Presentation
+- Mangesh Bore - Database, ETL
 <br><br>
 
 ## Communication Protocols
