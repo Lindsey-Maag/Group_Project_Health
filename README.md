@@ -3,11 +3,19 @@
 # Group Project Health 
 
 
+<<<<<<< HEAD
 ## Team Members
 - Ying Ko - Machine Learning
 - Lindsey Maag - GitHub Repo
 - Caitlin Bighem - Presentation
 - Mangesh Bore - Database
+=======
+## Team Members and Week 1 Roles
+- Ying Ko - Machine Learning Model
+- Lindsey Maag - Git Hub
+- Caitlin Bighem - Presentation
+- Mangesh Bore - Database, ETL
+>>>>>>> c5b088bf915fad0281425e0beb770b17ebdb685d
 <br><br>
 
 ## Communication Protocols
@@ -102,7 +110,7 @@ The goal of this project is to implement a machine learning model that can deter
 
 ## Analysis
 Questions answered as a result of this analysis:
-- Is there a relationship between cancer incidence and mortalikty rate to income?
+- Is there a relationship between cancer incidence and mortality rate to income?
 - Do race and sex affect cancer incidence and mortality rate?
 - Any unusually high or low rate of specific cancer type incidence rate by State?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
