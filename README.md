@@ -134,6 +134,14 @@ What model we used and if it worked. KEEP IN MIND WE DO NOT NEED TO KEEP USING T
 
 
 ## Results
+Per Mangesh & AWS Postgres database: CONFIRM WHICH SCREENSHOTS FOR CORRESPONDING TABLES BELOW
+- Overall mortality rate is 20-30% of the incidence rate.
+- Mortality rate is higher for lung, colon & rectum and pancreas cancers.
+- These three cancers are in top 5 for both male and female.
+
+(group_table screenshot)
+(mortality_table screenshot)
+(incidence_table screenshot)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
