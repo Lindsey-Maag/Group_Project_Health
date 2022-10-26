@@ -14,7 +14,7 @@
 - Lindsey Maag - Git Hub
 - Caitlin Bighem - Presentation
 - Mangesh Bore - Database, ETL
->>>>>>> c5b088bf915fad0281425e0beb770b17ebdb685d
+
 <br><br>
 
 ## Communication Protocols
@@ -109,7 +109,7 @@ The goal of this project is to implement a machine learning model that can deter
 
 ## Analysis
 Questions answered as a result of this analysis:
-- Is there a relationship between cancer incidence and mortality rate to income?
+- Is there a relationship between cancer incidence and mortality rate to income? - DELETE?
 - Do race and sex affect cancer incidence and mortality rate?
 - Any unusually high or low rate of specific cancer type incidence rate by State?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
@@ -134,7 +134,7 @@ What model we used and if it worked. KEEP IN MIND WE DO NOT NEED TO KEEP USING T
 
 
 ## Results
-Per Mangesh & AWS Postgres database: CONFIRM WHICH SCREENSHOTS FOR CORRESPONDING TABLES BELOW
+Per Mangesh & AWS Postgres database: CONFIRM WHICH SCREENSHOTS FOR CORRESPONDING TABLES BELOW. NEED MORE EXPLANATION ON WHAT THIS IS AND POSSIBLE DEFINITION OF CLASS
 - Overall mortality rate is 20-30% of the incidence rate.
 - Mortality rate is higher for lung, colon & rectum and pancreas cancers.
 - These three cancers are in top 5 for both male and female.
