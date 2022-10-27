@@ -3,6 +3,7 @@
 # Group Project Health 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Team Members
 - Ying Ko - Machine Learning
 - Lindsey Maag - GitHub Repo
@@ -15,6 +16,14 @@
 - Caitlin Bighem - Presentation
 - Mangesh Bore - Database, ETL
 
+=======
+
+## Team Members and Week 2 Roles
+- Ying Ko - Machine Learning, Data cleaning and formatting
+- Lindsey Maag - GitHub and Dashboard
+- Caitlin Bighem - Presentation, Dashboard, Visualizations
+- Mangesh Bore - Database, Data cleaning and formatting
+>>>>>>> cfba2c2bb17d1867cde9c9e3afc933930882e687
 <br><br>
 
 ## Communication Protocols
@@ -28,11 +37,10 @@
   <ul>
     <li><a href="#google-slides-link">Google Slides Link</a></li>
     <li><a href="#project-overview">Project Overview</a></li>
-    <li><a href="#initial-thoughts">Initial Thoughts</a></li>
     <li><a href="#topic">Topic</a></li>
     <li><a href="#goal">Goal</a></li>
     <li><a href="#resources">Resources</a>
-        <ul>
+       <ul>
         <li><a href="#1-united-states-cancer-statistics-uscs">1. United States Cancer Statistics (USCS)</a></li>
         <li><a href="#2-united-states-per-capita-income">2. United States Per Capita Income</a></li>
         <li><a href="#3-united-states-smoking-percentages">3. United States Smoking Percentages</a></li>
@@ -40,8 +48,11 @@
     </li> 
     <li><a href="#analysis">Analysis</a></li>
     <li><a href="#machine-learning-model">Machine Learning Model</a></li>
+       <ul>
+        <li><a href="lung-cancer-machine-learning-model-predictions">Lung Cancer Machine Learning Model Predictions</a></li>
+      </ul>
     <li><a href="#results">Results</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ul>
 <br><br>
 
@@ -124,7 +135,36 @@ Questions answered as a result of this analysis:
 
 
 ## Machine Learning Model
-What model we used and if it worked. KEEP IN MIND WE DO NOT NEED TO KEEP USING THIS MODEL!
+ML modeling goal is to try to find factors that may contribute to site-specific cancer death rate.
+
+- Preliminary data preprocessing:
+
+  - Our primary [cancer dataset](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/BYAREA.TXT) is provided by the CDC.The dataset contains state-level annual data covering 1999 to 2019 with   detailed information on site-specific incidence rates and mortality rates that are further split into specific sex and race   group.  The total raw dataset contains 959,077 records.  
+
+  - Our initial clean-up eliminated duplicate information, transformed data types, and dropped fields and rows with missing     data. 
+    - [Data Transformation Notebook](https://github.com/Lindseey-Maag/Group_Project_Health/blob/main/byarea_data_transform.ipynb)
+    - [Resulting Dataframe](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/cleaned_byarea_df.csv)
+
+  - In addition, we collected:
+    - [Annual state-level data on obesity from CDC](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/obesity_rate.csv)
+    - [Annual state-level data on smoking from CDC](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/smoking_rate.csv)
+    - [Annual state-level per capita income from BEA](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/per_capita_income.csv)
+    - We may add more as we develop our ML models
+
+- [Initial data exploration](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/byarea_data_exploration.ipynb):
+  - Preliminary feature selection, including their decision-making process:
+    - We investigated various cancer rate measurements as the target for our ML models.  We found that the age-adjusted       mortality rate gave us the best results in our [linear regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinearRegression.ipynb) ML models.
+    - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
+    ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/tree/main/Resources/SupervisedMLLinearRegression73%.PNG)
+    - Description of how data was split into training and testing sets:
+      -We split our smoking and lung cancer death relationship data using standard sklearn train_test_split method with random state of 78. We were able to achieve an R-square of 72% with the training dataset, while the testing dataset produced an R-square of 76%. We believe these results demonstrated our linear regression model does not have any overfitting issues. See [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_AgeAdj_LungCancer_Smoking.ipynb) for details code and outputs.
+
+  - Explanation of model choice, including limitations and benefits:
+    - We started our model exploration with linear regression to test out the best target choice and get a better understanding of our core dataset.  We find good results for our linear regression model when we look at the relationship between lung cancer death and smoking.
+    - We are expanding our exploration to other models, such as [multiple regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/MR_Cancer_Mortality.ipynb) and [random tree](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/mortality_incidence_randomforest_analysis.ipynb), during week 3 and hope to find other interesting relationships and trends within our cancer dataset.
+
+
+
 
 ### Lung Cancer Machine Learning Model Predictions
 1) At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
