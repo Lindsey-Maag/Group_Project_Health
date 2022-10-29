@@ -108,15 +108,15 @@ The goal of this project is to implement a machine learning model that can deter
 Questions answered as a result of this analysis:
 - Is there a relationship between cancer incidence and mortality rate to income?
 - Do race and sex affect cancer incidence and mortality rate?
+    - ying's MR_Cancer_Mortality-Test
 - Any unusually high or low rate of specific cancer type incidence rate by State?
+    - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
+    - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
-- Which age range is most susceptible to lung cancer?
-- Which states has the highest rate of skin cancer?
+    - 
 - 5 states with highest cancer rates?
-- 5 states with highest cancer rates?
-- What is the corrolation of smokers per state to lung cancer?
-- Smoking is down but lung cancer is up?
-- Three states with highest Average Age of a smoker with lung cancer?
+- 5 states with lowest cancer rates?
+- Three states with highest Age Adjusted death rate of smokers with lung cancer?
   - Kentucky: 62.54
   - Arkansas: 54.70
   - Mississippi: 54.46
