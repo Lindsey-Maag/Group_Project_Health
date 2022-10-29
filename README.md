@@ -2,28 +2,12 @@
 
 # Group Project Health 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Team Members
-- Ying Ko - Machine Learning
-- Lindsey Maag - GitHub Repo
-- Caitlin Bighem - Presentation
-- Mangesh Bore - Database
-=======
-## Team Members and Week 1 Roles
-- Ying Ko - Machine Learning Model
-- Lindsey Maag - Git Hub
-- Caitlin Bighem - Presentation
-- Mangesh Bore - Database, ETL
-
-=======
 
 ## Team Members and Week 2 Roles
 - Ying Ko - Machine Learning, Data cleaning and formatting
 - Lindsey Maag - GitHub and Dashboard
 - Caitlin Bighem - Presentation, Dashboard, Visualizations
 - Mangesh Bore - Database, Data cleaning and formatting
->>>>>>> cfba2c2bb17d1867cde9c9e3afc933930882e687
 <br><br>
 
 ## Communication Protocols
@@ -122,7 +106,7 @@ The goal of this project is to implement a machine learning model that can deter
 
 ## Analysis
 Questions answered as a result of this analysis:
-- Is there a relationship between cancer incidence and mortality rate to income? - DELETE?
+- Is there a relationship between cancer incidence and mortality rate to income?
 - Do race and sex affect cancer incidence and mortality rate?
 - Any unusually high or low rate of specific cancer type incidence rate by State?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
@@ -157,7 +141,7 @@ ML modeling goal is to try to find factors that may contribute to site-specific 
   - Preliminary feature selection, including their decision-making process:
     - We investigated various cancer rate measurements as the target for our ML models.  We found that the age-adjusted       mortality rate gave us the best results in our [linear regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinearRegression.ipynb) ML models.
     - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
-    ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/tree/main/Resources/SupervisedMLLinearRegression73%.PNG)
+    ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Supervised%20ML%20Linear%20Regression%2073%25.png)
     - Description of how data was split into training and testing sets:
       -We split our smoking and lung cancer death relationship data using standard sklearn train_test_split method with random state of 78. We were able to achieve an R-square of 72% with the training dataset, while the testing dataset produced an R-square of 76%. We believe these results demonstrated our linear regression model does not have any overfitting issues. See [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_AgeAdj_LungCancer_Smoking.ipynb) for details code and outputs.
 
@@ -176,20 +160,6 @@ ML modeling goal is to try to find factors that may contribute to site-specific 
 
 
 ## Results
-Per Mangesh & AWS Postgres database: CONFIRM WHICH SCREENSHOTS FOR CORRESPONDING TABLES BELOW. NEED MORE EXPLANATION ON WHAT THIS IS AND POSSIBLE DEFINITION OF CLASS
-- Overall mortality rate is 20-30% of the incidence rate.
-- Mortality rate is higher for lung, colon & rectum and pancreas cancers.
-- These three cancers are in top 5 for both male and female.
-
-(group_table screenshot)
-(mortality_table screenshot)
-(incidence_table screenshot)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## Recomendations
-After testing multiple machine learning models we discovered that the R2 machine learning model using adjust adjusted mortality lung cancer rate and smoking rate produced the highest acccuracy score of 75.73%.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
