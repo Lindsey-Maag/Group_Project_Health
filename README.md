@@ -116,6 +116,11 @@ Questions answered as a result of this analysis:
 - 5 states with highest cancer rates?
 - What is the corrolation of smokers per state to lung cancer?
 - Smoking is down but lung cancer is up?
+- Three states with highest Average Age of a smoker with lung cancer?
+  - Kentucky: 62.54
+  - Arkansas: 54.70
+  - Mississippi: 54.46
+![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Average%20Age%20Adjusted%20Rate%20Lung_Smoking_LR%20Map.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
