@@ -3,9 +3,9 @@
 # Group Project Health 
 
 
-## Team Members and Week 2 Roles
+## Team Members and Week 3 Roles
 - Ying Ko - Machine Learning, Data cleaning and formatting
-- Lindsey Maag - GitHub and Dashboard
+- Lindsey Maag - GitHub and Dashboard, Visualizations
 - Caitlin Bighem - Presentation, Dashboard, Visualizations
 - Mangesh Bore - Database, Data cleaning and formatting
 <br><br>
