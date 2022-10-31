@@ -32,10 +32,8 @@
     </li> 
     <li><a href="#analysis">Analysis</a></li>
     <li><a href="#machine-learning-model">Machine Learning Model</a></li>
-       <ul>
-        <li><a href="lung-cancer-machine-learning-model-predictions">Lung Cancer Machine Learning Model Predictions</a></li>
-      </ul>
     <li><a href="#results">Results</a></li>
+    <li><a href="#recommendations">Results</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ul>
 <br><br>
@@ -51,7 +49,7 @@
 
 [Dashboard Site](https://bc-group-project-health.herokuapp.com/)
 
-Plans for interactive elements included layered maps and other interactive datavisualizations
+Plans for interactive elements included layered maps and other interactive data visualizations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,15 +72,13 @@ The goal of this project is to implement a machine learning model that can deter
 
 
 ## Resources
-### 1. United States Cancer Statistics (USCS) 
-[Link](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
+### 1. United States Cancer Statistics (USCS) [Link](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
  
 - Data Source: Center for Disease Control
 - The preeminent source of data on cancer incidence is medical records. Medical professionals and staff at health care facilities pull data from patients' medical records. If the facility has its own cancer registry, they will enter the data there and send it to the national or state registry. Examples of these data sources include general practitioners office, radiation facilities, surgical centers and oncology laboratories.
 - The cancer mortality statistics have been gathered based on information from death certificates filed within the 50 states, the District of Columbia, and Puerto Rico.
  
-### 2. United States Per Capita Income
-[Link](https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=2)
+### 2. United States Per Capita Income [Link](https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=2)
 
 - Data Source: Bureau of Economic Affairs, Mid-Year population estimate by the Census Bureau.
 - BEA produced intercensal annual state population statistics for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020. 
@@ -91,8 +87,7 @@ The goal of this project is to implement a machine learning model that can deter
 - Note: All dollar estimates are in millions of current dollars (not adjusted for inflation). Calculations are performed on unrounded data.
 - Last updated: September 30, 2022--revised statistics for 2017-2021.
  
-### 3. United States Smoking Percentages
-[Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
+### 3. United States Smoking Percentages [Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
 
 [2018 Adult Smoking Rate by State](https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
 
@@ -107,14 +102,13 @@ The goal of this project is to implement a machine learning model that can deter
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Analysis
+## Analysis - DELETE ANYTHING WE DON'T ALREADY HAVE AN ANSWER TO AND INCLUDE SCREENSHOTS WITH THE ONES WE DO
 Questions answered as a result of this analysis:
-- DO WE WANT TO INCLUDE A QUESTION INVOLVING OBESITY RATES?
 - Is there a relationship between cancer incidence and mortality rate to income?
 - Does race affect cancer incidence and mortality rate?
   - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
   - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
-  - Mortality to incidence ratio" 0.23
+  - Mortality to incidence ratio: 0.23
 - Do race and sex affect lung cancer incidence and mortality rate?
     - Female smokers have lower lung cancer death rate than men
 ![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Lung%20Cancer%20Death%20Rate%20Male%20vs.%20Female.PNG)
@@ -122,24 +116,22 @@ Questions answered as a result of this analysis:
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
-- 5 states with highest cancer rates?
-- 5 states with lowest cancer rates?
 - Top 5 cancers for Males
-  1) Lung
-  2) Prostate
-  3) Colon & Rectum
-  4) Pancreas
-  5) Liver
+  1. Lung
+  2. Prostate
+  3. Colon & Rectum
+  4. Pancreas
+  5. Liver
 - Top 5 cancers for Females
   1) Lung
   2) Breast
   3) Colon & Rectum
   4) Pancreas
   5) Ovary
-- Three states with highest Age Adjusted death rate of smokers with lung cancer?
-  - Kentucky: 62.54
-  - Arkansas: 54.70
-  - Mississippi: 54.46
+- What are the top states with the highest death rate of smokers with lung cancer?
+  - Kentucky: 62.54%
+  - Arkansas: 54.70%
+  - Mississippi: 54.46%
 ![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Average%20Age%20Adjusted%20Rate%20Lung_Smoking_LR%20Map.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,7 +139,10 @@ Questions answered as a result of this analysis:
 
 ## Machine Learning Model
 ML modeling goal is to try to find factors that may contribute to site-specific cancer death rate.
+- What are we trying to compare? does age and sex contribute to cancer death rate. SUPER CLEAR GOAL & CAN WE CUT THIS DOWN TO MAKE IT MORE DIGESTIBLE?
+- In order to complete this analysis here are the steps we took: 
 
+Step 1)
 - Preliminary data preprocessing:
 
   - Our primary [cancer dataset](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/BYAREA.TXT) is provided by the CDC.The dataset contains state-level annual data covering 1999 to 2019 with   detailed information on site-specific incidence rates and mortality rates that are further split into specific sex and race   group.  The total raw dataset contains 959,077 records.  
@@ -162,11 +157,13 @@ ML modeling goal is to try to find factors that may contribute to site-specific 
     - [Annual state-level per capita income from BEA](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/per_capita_income.csv)
     - We may add more as we develop our ML models
 
+Step 2)
 - [Initial data exploration](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/byarea_data_exploration.ipynb):
   - Preliminary feature selection, including their decision-making process:
     - We investigated various cancer rate measurements as the target for our ML models.  We found that the age-adjusted       mortality rate gave us the best results in our [linear regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinearRegression.ipynb) ML models.
     - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
     ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Supervised%20ML%20Linear%20Regression%2073%25.png)
+    <img src="Lindsey-Magg/Group_Project_Health/Resources/Average Age Adjusted Rate Lung_Smoking_LR Map.PNG" width="700">
     - Description of how data was split into training and testing sets:
       -We split our smoking and lung cancer death relationship data using standard sklearn train_test_split method with random state of 78. We were able to achieve an R-square of 72% with the training dataset, while the testing dataset produced an R-square of 76%. We believe these results demonstrated our linear regression model does not have any overfitting issues. See [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_AgeAdj_LungCancer_Smoking.ipynb) for details code and outputs.
 
@@ -175,19 +172,18 @@ ML modeling goal is to try to find factors that may contribute to site-specific 
     - We are expanding our exploration to other models, such as [multiple regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/MR_Cancer_Mortality.ipynb) and [random tree](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/mortality_incidence_randomforest_analysis.ipynb), during week 3 and hope to find other interesting relationships and trends within our cancer dataset.
 
 
-
-
-### Lung Cancer Machine Learning Model Predictions
+## Results
 1) At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
 2) For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Recommendations
+- Furhter analysis can be done by including obesity rates and confirming how they may or may not contribute to cmorality and incidence rates of specific cancers.
+- 5 states with highest cancer rates?
+- 5 states with lowest cancer rates?
 
-## Results
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Acknowledgements
 
