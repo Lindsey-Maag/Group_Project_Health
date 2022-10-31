@@ -94,11 +94,11 @@ The goal of this project is to implement a machine learning model that can deter
 ### 3. United States Smoking Percentages
 [Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
 
-[2018 adult smoking rate by state](https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
+[2018 Adult Smoking Rate by State](https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
 
-[2019 adult smoking rate by state](https://www.cdc.gov/statesystem/cigaretteuseadult.html)
+[2019 Adult Smoking Rate by State](https://www.cdc.gov/statesystem/cigaretteuseadult.html)
 
-[2020 adult smoking rate by state](https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
+[2020 Adult Smoking Rate by State](https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
 
 - Data Source: Center for Disease Control
 - Adults who reported that they currently smoked every day or some days. 
@@ -117,14 +117,25 @@ Questions answered as a result of this analysis:
   - Mortality to incidence ratio" 0.23
 - Do race and sex affect lung cancer incidence and mortality rate?
     - Female smokers have lower lung cancer death rate than men
-![Lung Cancer Death Rate Male vs. Female]()
+![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Lung%20Cancer%20Death%20Rate%20Male%20vs.%20Female.PNG)
 - Any unusually high or low rate of specific cancer type incidence rate by State?
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
-    - 
 - 5 states with highest cancer rates?
 - 5 states with lowest cancer rates?
+- Top 5 cancers for Males
+  1) Lung
+  2) Prostate
+  3) Colon & Rectum
+  4) Pancreas
+  5) Liver
+- Top 5 cancers for Females
+  1) Lung
+  2) Breast
+  3) Colon & Rectum
+  4) Pancreas
+  5) Ovary
 - Three states with highest Age Adjusted death rate of smokers with lung cancer?
   - Kentucky: 62.54
   - Arkansas: 54.70
