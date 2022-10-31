@@ -93,8 +93,11 @@ The goal of this project is to implement a machine learning model that can deter
  
 ### 3. United States Smoking Percentages
 [Link](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
+
 [2018 adult smoking rate by state](https://www.cdc.gov/tobacco/data_statistics/fact_sheets/adult_data/cig_smoking/index.htm#states)
+
 [2019 adult smoking rate by state](https://www.cdc.gov/statesystem/cigaretteuseadult.html)
+
 [2020 adult smoking rate by state](https://www.tobaccofreekids.org/assets/factsheets/0176.pdf)
 
 - Data Source: Center for Disease Control
@@ -106,9 +109,15 @@ The goal of this project is to implement a machine learning model that can deter
 
 ## Analysis
 Questions answered as a result of this analysis:
+- DO WE WANT TO INCLUDE A QUESTION INVOLVING OBESITY RATES?
 - Is there a relationship between cancer incidence and mortality rate to income?
-- Do race and sex affect cancer incidence and mortality rate?
-    - ying's MR_Cancer_Mortality-Test
+- Does race affect cancer incidence and mortality rate?
+  - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
+  - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
+  - Mortality to incidence ratio" 0.23
+- Do race and sex affect lung cancer incidence and mortality rate?
+    - Female smokers have lower lung cancer death rate than men
+![Lung Cancer Death Rate Male vs. Female]()
 - Any unusually high or low rate of specific cancer type incidence rate by State?
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
