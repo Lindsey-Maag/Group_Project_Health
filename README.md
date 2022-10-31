@@ -19,7 +19,7 @@
 <!-- TABLE OF CONTENTS -->
 <h2>Table of Contents</h2>
   <ul>
-    <li><a href="#google-slides-link">Google Slides Link</a></li>
+    <li><a href="#link section">Link Section</a></li>
     <li><a href="#project-overview">Project Overview</a></li>
     <li><a href="#topic">Topic</a></li>
     <li><a href="#goal">Goal</a></li>
@@ -33,21 +33,18 @@
     <li><a href="#analysis">Analysis</a></li>
     <li><a href="#machine-learning-model">Machine Learning Model</a></li>
     <li><a href="#results">Results</a></li>
-    <li><a href="#recommendations">Results</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
   </ul>
 <br><br>
 
 
-## Google Slides Link
+## Link Section 
 
-**Download Presentation >** [Google Slide Presentation](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
+**Download Presentation** [Google Slide Presentation](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Tableau Dashboard** [Tableau Dashboard](https://public.tableau.com/app/profile/caitlin.bighem/viz/GroupHealthProject/Obesity_RateMap1?publish=yes)
 
-## Final Web App 
-
-[Dashboard Site](https://bc-group-project-health.herokuapp.com/)
+**Final Web App** [Dashboard Site](https://bc-group-project-health.herokuapp.com/)
 
 Plans for interactive elements included layered maps and other interactive data visualizations
 
@@ -164,6 +161,7 @@ Step 2)
     - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
     ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Supervised%20ML%20Linear%20Regression%2073%25.png)
     <img src="Lindsey-Magg/Group_Project_Health/Resources/Average Age Adjusted Rate Lung_Smoking_LR Map.PNG" width="700">
+    
     - Description of how data was split into training and testing sets:
       -We split our smoking and lung cancer death relationship data using standard sklearn train_test_split method with random state of 78. We were able to achieve an R-square of 72% with the training dataset, while the testing dataset produced an R-square of 76%. We believe these results demonstrated our linear regression model does not have any overfitting issues. See [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_AgeAdj_LungCancer_Smoking.ipynb) for details code and outputs.
 
@@ -182,9 +180,5 @@ Step 2)
 - 5 states with highest cancer rates?
 - 5 states with lowest cancer rates?
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgements
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
