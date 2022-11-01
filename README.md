@@ -113,7 +113,7 @@ Questions answered as a result of this analysis:
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
-- Top 5 cancers for Males
+- Top 5 cancers for Males Dashboard 5(2) - Mortality vs Sex
   1. Lung
   2. Prostate
   3. Colon & Rectum
@@ -161,6 +161,7 @@ Step 2)
     - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
     ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Supervised%20ML%20Linear%20Regression%2073%25.png)
     <img src="Resources/Supervised ML Linear Regression 73%.png" width="700">
+    <img align="right" src="Dashboard/Analysis/dashboard-draft.png" width="200">
     
     - Description of how data was split into training and testing sets:
       -We split our smoking and lung cancer death relationship data using standard sklearn train_test_split method with random state of 78. We were able to achieve an R-square of 72% with the training dataset, while the testing dataset produced an R-square of 76%. We believe these results demonstrated our linear regression model does not have any overfitting issues. See [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_AgeAdj_LungCancer_Smoking.ipynb) for details code and outputs.
