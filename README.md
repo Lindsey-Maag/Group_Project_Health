@@ -49,7 +49,9 @@
 
 ## Final Web App 
 
-[Final Web App](ADD LINK HERE)
+[Dashboard Site](https://bc-group-project-health.herokuapp.com/)
+
+Plans for interactive elements included layered maps and other interactive datavisualizations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
