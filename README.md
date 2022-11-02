@@ -102,10 +102,11 @@ The goal of this project is to implement a machine learning model that can deter
 ## Analysis - DELETE ANYTHING WE DON'T ALREADY HAVE AN ANSWER TO AND INCLUDE SCREENSHOTS WITH THE ONES WE DO
 Questions answered as a result of this analysis:
 - Is there a relationship between cancer incidence and mortality rate to income?
-- Does race affect cancer incidence and mortality rate?
+- Does race affect cancer incidence and mortality rate? - USE MORTALITY RATE VS RACE, 
   - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
   - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
-  - Mortality to incidence ratio: 0.23
+  - Mortality to incidence ratio: 0.23 
+![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Mortality_vs_Incidence.PNG)
 - Do race and sex affect lung cancer incidence and mortality rate?
     - Female smokers have lower lung cancer death rate than men
 ![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Lung%20Cancer%20Death%20Rate%20Male%20vs.%20Female.PNG)
@@ -113,7 +114,7 @@ Questions answered as a result of this analysis:
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
 - Any unusually high or low rate of specific cancer type incidence rate by Race?
-- Top 5 cancers for Males Dashboard 5(2) - Mortality vs Sex
+- Top 5 cancers for Males 
   1. Lung
   2. Prostate
   3. Colon & Rectum
@@ -125,6 +126,7 @@ Questions answered as a result of this analysis:
   3) Colon & Rectum
   4) Pancreas
   5) Ovary
+![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Mortality_vs_Sex.PNG)
 - What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
   - Arkansas: 54.70%
