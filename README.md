@@ -10,11 +10,6 @@
 - Mangesh Bore - Database, Data cleaning and formatting
 <br><br>
 
-## Communication Protocols
-* Forms of communication: Slack, Zoom and email
-* Attendance: Required weekly scheduled Zoom meeting at agreed upon time and office hours as able
-* Responsiveness: Respond within 24 hours to direct questions
-<br><br>
 
 <!-- TABLE OF CONTENTS -->
 <h2>Table of Contents</h2>
