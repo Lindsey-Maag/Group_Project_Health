@@ -113,9 +113,16 @@ Questions answered as a result of this analysis:
 - Do race and sex affect lung cancer incidence and mortality rate?
     - Female smokers have lower lung cancer death rate than men
 ![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Lung%20Cancer%20Death%20Rate%20Male%20vs.%20Female.PNG)
-- Any unusually high or low rate of specific cancer type incidence rate by State?
-    - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
-    - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
+- Any unusually high or low rate of lung cancer incidence rate by State?
+  - Highest incidence rate:
+    - West Virginia - 26.26%
+    - Kentucky - 25.79%
+    - Arkansas - 24.03%
+  - Lowest incidence rate:
+    - Utah - 9.57%
+    - California - 11.88%
+    - Hawaii - 13.83%
+![Lung Cancer Map by Year]()
 - Top 5 cancers for Males 
   1. Lung
   2. Prostate
