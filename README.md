@@ -102,9 +102,12 @@ The goal of this project is to implement a machine learning model that can deter
 ## Analysis - DELETE ANYTHING WE DON'T ALREADY HAVE AN ANSWER TO AND INCLUDE SCREENSHOTS WITH THE ONES WE DO
 Questions answered as a result of this analysis:
 - Is there a relationship between cancer incidence and mortality rate to income?
+  - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
+    - Our dataset spans over 21 years and during this period, per capita income steadily increases due to inflation and economic expansion while cancer motality rate decreased, most likely as a result of better screening and health care technology, all of these factors have contributed to the lower correlation between income and cancer mortality.
 - Does race affect cancer incidence and mortality rate? - USE MORTALITY RATE VS RACE, 
   - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
   - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
+![All Cancer Mortality vs Race]()
   - Mortality to incidence ratio: 0.23 
 ![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Mortality_vs_Incidence.PNG)
 - Do race and sex affect lung cancer incidence and mortality rate?
@@ -113,7 +116,6 @@ Questions answered as a result of this analysis:
 - Any unusually high or low rate of specific cancer type incidence rate by State?
     - map for lung cancer but switch for each cancer type per column and by year - table/data coming from ying
     - kentucky is the black hole for lung cancer but is ther another state that is the center for another type of cancer?
-- Any unusually high or low rate of specific cancer type incidence rate by Race?
 - Top 5 cancers for Males 
   1. Lung
   2. Prostate
@@ -182,6 +184,7 @@ Step 2)
 - Furhter analysis can be done by including obesity rates and confirming how they may or may not contribute to cmorality and incidence rates of specific cancers.
 - 5 states with highest cancer rates?
 - 5 states with lowest cancer rates?
+- One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame.  Maybe analyze one-year data at the county level or ideally patient level.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
