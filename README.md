@@ -99,7 +99,7 @@ The goal of this project is to implement a machine learning model that can deter
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Analysis - DELETE ANYTHING WE DON'T ALREADY HAVE AN ANSWER TO AND INCLUDE SCREENSHOTS WITH THE ONES WE DO
+## Analysis
 Questions answered as a result of this analysis:
 - Is there a relationship between cancer incidence and mortality rate to income?
   - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
@@ -147,9 +147,7 @@ Questions answered as a result of this analysis:
 
 
 ## Machine Learning Model
-ML modeling goal is to try to find factors that may contribute to site-specific cancer death rate.
-- What are we trying to compare? does age and sex contribute to cancer death rate. SUPER CLEAR GOAL & CAN WE CUT THIS DOWN TO MAKE IT MORE DIGESTIBLE?
-- In order to complete this analysis here are the steps we took: 
+ML modeling goal is to try to find factors that may contribute to site-specific cancer death rate. In order to complete this analysis here are the steps we took: 
 
 Step 1)
 - Preliminary data preprocessing:
@@ -184,12 +182,14 @@ Step 2)
 
 
 ## Results
-1) At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
-2) For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
+- Multiple regression for lung cancer is 68% testing and 75% training
+- Linear regression for lung cancer is 76% testing and 72% training
+- At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
+- For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Recommendations
-- Furhter analysis can be done by including obesity rates and confirming how they may or may not contribute to cmorality and incidence rates of specific cancers.
+- Further analysis can be done by including obesity rates and confirming how they may or may not contribute to cmorality and incidence rates of specific cancers.
 - 5 states with highest cancer rates?
 - 5 states with lowest cancer rates?
 - One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame.  Maybe analyze one-year data at the county level or ideally patient level.
