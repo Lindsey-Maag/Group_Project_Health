@@ -104,15 +104,16 @@ Questions answered as a result of this analysis:
 - Is there a relationship between cancer incidence and mortality rate to income?
   - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
     - Our dataset spans over 21 years and during this period, per capita income steadily increases due to inflation and economic expansion while cancer motality rate decreased, most likely as a result of better screening and health care technology, all of these factors have contributed to the lower correlation between income and cancer mortality.
+![Supervised Machine Learning Linear Regression R2 Model](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Supervised_ML_Linear_Regression_R2_5_Percent.png)
 - Does race affect cancer incidence and mortality rate? - USE MORTALITY RATE VS RACE, 
   - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
   - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
-![All Cancer Mortality vs Race]()
+![All Cancer Mortality vs Race](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/All_Cancer_Mortality_vs_Race.PNG)
   - Mortality to incidence ratio: 0.23 
-![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Mortality_vs_Incidence.PNG)
+![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Incidence.PNG)
 - Do race and sex affect lung cancer incidence and mortality rate?
     - Female smokers have lower lung cancer death rate than men
-![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Lung%20Cancer%20Death%20Rate%20Male%20vs.%20Female.PNG)
+![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Death_Rate_Male_vs_Female.PNG)
 - Any unusually high or low rate of lung cancer incidence rate by State?
   - Highest incidence rate:
     - West Virginia - 26.26%
@@ -122,7 +123,7 @@ Questions answered as a result of this analysis:
     - Utah - 9.57%
     - California - 11.88%
     - Hawaii - 13.83%
-![Lung Cancer Map by Year]()
+![Lung Cancer Map by Year](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Map_by_Year.PNG)
 - Top 5 cancers for Males 
   1. Lung
   2. Prostate
@@ -135,12 +136,12 @@ Questions answered as a result of this analysis:
   3) Colon & Rectum
   4) Pancreas
   5) Ovary
-![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Mortality_vs_Sex.PNG)
+![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex.PNG)
 - What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
   - Arkansas: 54.70%
   - Mississippi: 54.46%
-![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Average%20Age%20Adjusted%20Rate%20Lung_Smoking_LR%20Map.PNG)
+![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Average_Age_Adjusted_Rate_Lung_Smoking_LR_Map.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,8 +171,8 @@ Step 2)
   - Preliminary feature selection, including their decision-making process:
     - We investigated various cancer rate measurements as the target for our ML models.  We found that the age-adjusted       mortality rate gave us the best results in our [linear regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinearRegression.ipynb) ML models.
     - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.  In the [LinR_AgeAdj_LungCancer_Smoking.ipynb notebook](LinR_AgeAdj_LungCancer_Smoking.ipynb) we were able to improve R-square to 73% when we used aged-adjusted lung cancer death rate.
-    ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Supervised%20ML%20Linear%20Regression%2073%25.png)
-    <img src="Resources/Supervised ML Linear Regression 73%.png" width="700">
+    ![Supervised Machine Learning Linear Regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Supervised_ML_Linear_Regression_73_Percent.png)
+    <img src="Resources/Supervised_ML_Linear_Regression_73_Percent.png" width="700">
     <img align="right" src="Dashboard/Analysis/dashboard-draft.png" width="200">
     
     - Description of how data was split into training and testing sets:
