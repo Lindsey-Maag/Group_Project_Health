@@ -140,7 +140,7 @@ Questions answered as a result of this analysis:
   5) Ovary
   6) Non Hodgkin Lymphoma
   7) Leukemia
-![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex.PNG)
+![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex_Cancer_Type_Breakdown.PNG)
 - What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
   - Arkansas: 54.70%
