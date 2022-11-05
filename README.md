@@ -124,18 +124,22 @@ Questions answered as a result of this analysis:
     - California - 11.88%
     - Hawaii - 13.83%
 ![Lung Cancer Map by Year](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Map_by_Year.PNG)
-- Top 5 cancers for Males 
+- What are the top mortality trends for males?
   1. Lung
   2. Prostate
   3. Colon & Rectum
   4. Pancreas
   5. Liver
-- Top 5 cancers for Females
+  6. Leukemia
+  7. Non Hodgkin Lymphoma
+- What are the top mortality trends for females?
   1) Lung
   2) Breast
   3) Colon & Rectum
   4) Pancreas
   5) Ovary
+  6) Non Hodgkin Lymphoma
+  7) Leukemia
 ![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex.PNG)
 - What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
