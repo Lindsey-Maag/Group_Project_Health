@@ -111,9 +111,6 @@ Questions answered as a result of this analysis:
 ![All Cancer Mortality vs Race](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/All_Cancer_Mortality_vs_Race.PNG)
   - Mortality to incidence ratio: 0.23 
 ![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Incidence.PNG)
-- Does sex affect lung cancer incidence and mortality rate?
-    - Female smokers have lower lung cancer death rate than men
-![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Death_Rate_Male_vs_Female.PNG)
 - Any unusually high or low rate of lung cancer incidence rate by State?
   - Highest incidence rate:
     - West Virginia - 26.26%
