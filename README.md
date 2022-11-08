@@ -35,9 +35,9 @@
 
 ## Link Section 
 
-**Download Presentation** [Google Slide Presentation](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689)
+**Download Presentation** [Google Slide Presentation](https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.p)
 
-**Tableau Dashboard** [Tableau Dashboard](https://public.tableau.com/app/profile/caitlin.bighem/viz/GroupHealthProject/Obesity_RateMap1?publish=yes)
+**Tableau Dashboard** [Tableau Dashboard](https://public.tableau.com/app/profile/caitlin.bighem/viz/GroupHealthProject_Master/Smoking_RateParametersExample?publish=yes)
 
 **Final Web App** [Dashboard Site](https://bc-group-project-health.herokuapp.com/)
 
@@ -106,9 +106,6 @@ Questions answered as a result of this analysis:
 ![All Cancer Mortality vs Race](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/All_Cancer_Mortality_vs_Race.PNG)
   - Mortality to incidence ratio: 0.23 
 ![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Incidence.PNG)
-- Do race and sex affect lung cancer incidence and mortality rate?
-    - Female smokers have lower lung cancer death rate than men
-![Lung Cancer Death Rate Male vs. Female](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Death_Rate_Male_vs_Female.PNG)
 - Any unusually high or low rate of lung cancer incidence rate by State?
   - Highest incidence rate:
     - West Virginia - 26.26%
@@ -119,19 +116,23 @@ Questions answered as a result of this analysis:
     - California - 11.88%
     - Hawaii - 13.83%
 ![Lung Cancer Map by Year](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Lung_Cancer_Map_by_Year.PNG)
-- Top 5 cancers for Males 
+- What are the top mortality trends for males?
   1. Lung
   2. Prostate
   3. Colon & Rectum
   4. Pancreas
   5. Liver
-- Top 5 cancers for Females
+  6. Leukemia
+  7. Non Hodgkin Lymphoma
+- What are the top mortality trends for females?
   1) Lung
   2) Breast
   3) Colon & Rectum
   4) Pancreas
   5) Ovary
-![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex.PNG)
+  6) Non Hodgkin Lymphoma
+  7) Leukemia
+![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex_Cancer_Type_Breakdown.PNG)
 - What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
   - Arkansas: 54.70%
