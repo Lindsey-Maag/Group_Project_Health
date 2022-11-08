@@ -3,9 +3,9 @@
 # Group Project Health 
 
 
-## Team Members and Week 3 Roles
+## Team Members and Week 4 Roles
 - Ying Ko - Machine Learning, Data cleaning and formatting
-- Lindsey Maag - GitHub and Dashboard, Visualizations
+- Lindsey Maag - GitHub and Dashboard, Presentation
 - Caitlin Bighem - Presentation, Dashboard, Visualizations
 - Mangesh Bore - Database, Data cleaning and formatting
 <br><br>
@@ -100,7 +100,7 @@ Questions answered as a result of this analysis:
   - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
     - Our dataset spans over 21 years and during this period, per capita income steadily increases due to inflation and economic expansion while cancer motality rate decreased, most likely as a result of better screening and health care technology, all of these factors have contributed to the lower correlation between income and cancer mortality.
 ![Supervised Machine Learning Linear Regression R2 Model](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Supervised_ML_Linear_Regression_R2_5_Percent.png)
-- Does race affect cancer incidence and mortality rate? - USE MORTALITY RATE VS RACE, 
+- Does race affect cancer incidence and mortality rate?
   - Black individuals have a higher mortality rate than white individuals in comparison with incidence rate
   - Other three races have lower incidence and mortality rate than indivudlas whose race is Black or White
 ![All Cancer Mortality vs Race](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/All_Cancer_Mortality_vs_Race.PNG)
