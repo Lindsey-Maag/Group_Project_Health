@@ -55,10 +55,12 @@
 
 Identify if there are geographic, demographic, or economic factors that contribute to cancer diagnosis rates or deaths.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Overview
 With our objective in mind our group set out to compare cancer diagnosis and death rates against factors like income, location, and health risk factors such as smoking and obesity. 
 
-We started by exploring out data to see what if any trends existed within out dataset. After determining that lung cancer was prevalent no matter race, sex, or geographic region we created a linear regression machine learning model to predict if lung cancer deaths would increase with increased smoking rates. We then explored other factors like income and obesity to see if other relationships could be found using a multiple regression machine learning model
+We started by exploring out data to see what if any trends existed within out dataset. After determining that lung cancer was prevalent no matter race, sex, or geographic region we created a linear regression machine learning model to predict if lung cancer deaths would increase with increased smoking rates. We then explored other factors like income and obesity to see if other relationships could be found using a multiple regression machine learning model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,8 +112,6 @@ We started by exploring out data to see what if any trends existed within out da
 | Prostate | Breast |
 | Colon & Rectum | Colon & Rectum |
 
-![Mortality vs Sex](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Sex_Cancer_Type_Breakdown.PNG)
-
 
 #### Are there unusually high or low rates of cancer type incidence rate by State?
 | Highest Incidence Rate | Lowest Incidence Rate |
@@ -121,11 +121,14 @@ We started by exploring out data to see what if any trends existed within out da
 | Arkansas - 24.03% | Hawaii - 13.83% |
  
 
-#### What are the top states with the highest death rate of smokers with lung cancer?
-  - Kentucky: 62.54%
-  - Arkansas: 54.70%
-  - Mississippi: 54.46%
-![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Average_Age_Adjusted_Rate_Lung_Smoking_LR_Map.PNG)
+#### What are the top states with the highest death rate of smokers with lung cancer?  
+| Highest Smoker Mortality |
+| :---:   |
+| Kentucky: 62.54% |
+| Arkansas: 54.70% |
+| Mississippi: 54.46%|
+
+![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/Images/smoker_deaths.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,13 +161,14 @@ We started by exploring out data to see what if any trends existed within out da
 ##### Pancreatic Cancer Mortality
  - In this model pancreatic cancer mortality rate was compared against our income, smoking, and obesity data sets. 
 
-    
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
 ## Results
 - Multiple regression for lung cancer is 68% testing and 75% training
 - Linear regression for lung cancer is 76% testing and 72% training
 - At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
 - For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Recommendations
