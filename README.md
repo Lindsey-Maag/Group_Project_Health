@@ -189,6 +189,6 @@ Based on our analysis, we recommend the use of the current data to review the fo
 
 Ideally to achieve more specific results additional data is needed:
 - Incorporate additional location data to further narrow the focus of the location-based analysis.
-- Patient-level data would show individual incomes, smoking habits, and weight which would we could then again narrow the focus of our analysis.
+- Patient-level data would show an individual’s income, smoking habits, and weight which all together could show if behavioral factors related to an individual’s cancer outcomes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
