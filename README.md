@@ -58,7 +58,7 @@ Identify if there are geographic, demographic, or economic factors that contribu
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Overview
-With our objective in mind our group set out to compare cancer diagnosis and death rates against factors like income, location, and health risk factors such as smoking and obesity. 
+With our objective in mind, our group set out to compare cancer diagnosis and death rates against factors like income, location, and health risk factors such as smoking and obesity. 
 
 We started by exploring out data to see what if any trends existed within out dataset. After determining that lung cancer was prevalent no matter race, sex, or geographic region we created a linear regression machine learning model to predict if lung cancer deaths would increase with increased smoking rates. We then explored other factors like income and obesity to see if other relationships could be found using a multiple regression machine learning model.
 
@@ -189,6 +189,6 @@ Based on our analysis, we recommend the use of the current data to review the fo
 
 Ideally to achieve more specific results additional data is needed:
 - Incorporate additional location data to further narrow the focus of the location-based analysis.
-- Patient level data would show individual incomes, smoking habits, and weight which would we could then again narrow the focus of our analysis.
+- Patient-level data would show individual incomes, smoking habits, and weight which would we could then again narrow the focus of our analysis.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
