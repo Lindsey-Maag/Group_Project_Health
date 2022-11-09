@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Data Analytics</title>
+    <title>Resources</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/project.css">
 </head>
 
 <body>
-
     <nav class="navbar sticky-top navbar-expand-lg navbar-light nav-bg">
         <div class="row">
             <a class="navbar-brand col-8" href="/">U.S. Cancer Rates Compared to Behavioral Health Factors</a>
@@ -21,8 +20,8 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="presentation">Presentation</a>
@@ -30,8 +29,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="visuals">Visualizations</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resources">Resources</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="resources">Resources <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about">About</a>
@@ -40,16 +39,34 @@
             </div>
         </div>
     </nav>
-    <div style="background-image: url(/static/img/white-ribbon.jpg); min-height: 75vh; min-width: 100vw; opacity: .4; background-repeat: no-repeat; ">
-        <div class="container buffer-top-lg">
-            <h1 style="font-weight: bold; color: #000000;">Objective</h1>
-            <p style="color: #000000;">Identify if there are geographic, demographic, or economic factors that contribute to cancer diagnosis rates or deaths.</p><br />
-            <h1 style="font-weight: bold; color: #000000;">Overview</h1>
-            <p style="color: #000000;">With our objective in mind, our group set out to compare cancer diagnosis and death rates against factors like income, location, and health risk factors such as smoking and obesity.</p>
-            <p style="color: #000000;">We started by exploring out data to see what if any trends existed within out dataset. After determining that lung cancer was prevalent no matter race, sex, or geographic region we created a linear regression machine learning model to predict if lung cancer deaths would increase with increased smoking rates. We then explored other factors like income and obesity to see if other relationships could be found using a multiple regression machine learning model.</p>
-        </div>
-    </div>
-        <br /><br />
+
+    <br /><br />
+          <div class="buffer" style="margin-left: 20px; margin-right: 20px;">
+              <h4>1. <a class="link" href="https://docs.google.com/presentation/d/1qDphhR6iy6LWQZMR-FTrf8-2vGju6G8aBF8bE3vS4zU/edit#slide=id.g1679ac1ab82_0_1689">United States Cancer Statistics (USCS)</a></h4>
+              <p>- Data Source: <a class="link" href="https://www.cdc.gov/">Center for Disease Control</a></p>
+              <p>- The preeminent source of data on cancer incidence is medical records. Medical professionals and staff at health care facilities pull data from patients' medical records. If the facility has its own cancer registry, they will enter the data there and send it to the national or state registry.</p>
+              <p>- The cancer mortality statistics have been gathered based on information from death certificates.</p>
+              <p>- Years included: 1999 through 2019</p><br />
+
+              <h4>2. <a class="link" href="https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/">United States Smoking Percentages</a></h4>
+              <p>- Data Source: <a class="link" href="https://www.cdc.gov/">Center for Disease Control</a></p>
+              <p>- Adults who reported that they currently smoked every day or some days through the Behavioral Risk Factor Surveillance System (BRFSS).</p>
+              <p>- Percentages are weighted to reflect population characteristics.</p>
+              <p>- Years included: 2011 through 2019</p><br />
+
+              <h4>3. <a class="link" href="https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=2">United States Per Capita Income</a></h4>
+              <p>- Data Source: <a class="link" href="https://www.bea.gov/">Bureau of Economic Affairs</a></p>
+              <p>- Per capita personal income is total personal income divided by the total mid-year population.</p>
+              <p>- Note: All dollar estimates are in millions of current dollars (not adjusted for inflation).</p>
+              <p>- Years included: 2010 through 2020</p><br />
+
+              <h4>4. <a class="link" href="https://nccd.cdc.gov/dnpao_dtm/rdPage.aspx?rdReport=DNPAO_DTM.ExploreByTopic&islClass=OWS&islTopic=&go=GO">United States Obesity Percentages</a></h4>
+              <p>- Data Source: <a class="link" href="https://www.cdc.gov/">Center for Disease Control</a></p>
+              <p>- Adults who reported that they were currently obese through the Behavioral Risk Factor Surveillance System (BRFSS).</p>
+              <p>- Percentages are weighted to reflect population characteristics.</p>
+              <p>- Years included: 2010 through 2019</p>
+          </div>
+
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-6 d-flex">
             <span class="text-muted">Last Updated November 2022</span>

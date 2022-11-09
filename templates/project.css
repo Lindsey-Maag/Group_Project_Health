@@ -1,0 +1,50 @@
+.float-right {
+    float: right !important;
+}
+
+.row {
+    width: 100% !important;
+}
+
+.nav-bg {
+    background-image: url(./healthcare.png);
+    min-height: 100px;
+}
+
+.buffer-top-lg {
+    margin-top: 25px;
+}
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: darkslategrey;
+    display: inline;
+    justify-content: center;
+}
+
+.buffer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.container {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0;
+}
+
+div.container h1, p {
+        font-weight: bold;
+        color: #000000;
+}
