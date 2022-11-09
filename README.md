@@ -153,21 +153,31 @@ We started by exploring out data to see what if any trends existed within out da
  - We started our model exploration with linear regression to test out the best target choice and get a better understanding of our core dataset.  We found good results with our linear regression model when we looked at the relationship between lung cancer death rates and smoking percentages.
 
 #### Multiple Regression Models
+Our Multiple Regression Models compared three different cancer-type mortality rates with income, smoking percentage, and obesity data. Data was split into training and test models the same as our linear regression models. Below is an example Seaborn Heat Map that was generated in the Lung Cancer Multiple Regression Model. The cross sections with darker colors indicate a very poor or negative relationships. Cross sections with lighter colors indicate positive relationships. Age-adjusted-rate and smoking percentage show the best relationship at 85%. The next highest relationship is smoking and obesity at 49%.
+
+![Multiple Regression Seaborn Heat Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/Images/mult_regression.PNG)
+
 ##### Lung Cancer Mortality
  - In this model lung cancer mortality rate was compared against our income, smoking, and obesity data sets.
- - We achieved a training score of 75% and a testing score of 67% 
+ - We achieved a training score of 75% and a testing score of 68% 
 ##### Colon Cancer Mortality
  - In this model colon cancer mortality rate was compared against our income, smoking, and obesity data sets. 
+ - We achieved a training score of 56% and a testing score of 56%
 ##### Pancreatic Cancer Mortality
- - In this model pancreatic cancer mortality rate was compared against our income, smoking, and obesity data sets. 
+ - In this model pancreatic cancer mortality rate was compared against our income, smoking, and obesity data sets.
+ - We achieved a training score of 56% and a testing score of 56%
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
 ## Results
-- Multiple regression for lung cancer is 68% testing and 75% training
+#### Linear Regression - Lung Cancer
 - Linear regression for lung cancer is 76% testing and 72% training
 - At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
-- For every 0.2% of smoking rate increase, there will be an increase of 1 on deathrate. (coef)
+- For every 0.2% of smoking percentage rate increase, there will be an increase of 1 on deathrate.
+
+#### Multiple Regression
+ - Multiple regression for lung cancer is 68% testing and 75% training. The higher training score compared to lower testing score is indicative or over-fitting.
+ - Testing and training scores for the multiple regression models for Colon and Pancreatic cancers were all around 56%. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,8 +185,10 @@ We started by exploring out data to see what if any trends existed within out da
 
 Based on our analysis, we recommend the use of the current data to review the following questions:
 - Further analysis can be done by including obesity rates and confirming how they may or may not contribute to morality and incidence rates of specific cancers.
-- One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame.  Maybe analyze one-year data at the county level or ideally patient level.
-- Incorporate additional location data, zip codes for example, to further narrow the focus of the location based analysis.
+- One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame like one year at a time. 
 
+Ideally to achieve more specific results additional data is needed:
+- Incorporate additional location data to further narrow the focus of the location-based analysis.
+- Patient-level data would show individual incomes, smoking habits, and weight which would we could then again narrow the focus of our analysis.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
