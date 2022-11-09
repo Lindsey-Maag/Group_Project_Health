@@ -1,0 +1,115 @@
+.float-right {
+    float: right !important;
+}
+
+.row {
+    width: 100% !important;
+}
+
+.nav-bg {
+    background-image: url(/static/img/healthcare.png);
+    min-height: 100px;
+}
+
+.buffer-top-lg {
+    margin-top: 25px;
+}
+
+table {
+    font: normal 14px "DejaVu Sans", arial, tahoma, helvetica, sans-serif;
+    border: 1px solid #c3c3c3;
+}
+
+.thead {
+    font: bold 20px "DejaVu Sans", arial, tahoma, helvetica, sans-serif;
+}
+
+table th {
+    color: #fff;
+    background-color: #1E639A;
+    border: 1px solid #fff;
+    border-right-color: #D0D0D0;
+    border-bottom-color: #D0D0D0;
+    padding: 2px;
+    text-align: center;
+}
+
+    table th.first-th {
+        border-left: 1px solid #1E639A;
+    }
+
+    table th.last-th {
+        border-right: 1px solid #1E639A;
+    }
+
+table tr.row-header td,
+table tr.row-header-1 td,
+table td.td-header,
+table td.td-header-1 {
+    color: #fff;
+    background-color: #1E639A;
+    border: 1px solid #1E639A;
+    padding: 2px;
+    text-align: left;
+}
+
+table tfoot tr th {
+    padding: 8px;
+    color: #fff;
+    line-height: 12px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table td {
+    padding: 4px;
+    border-bottom: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+}
+
+table tbody tr {
+    background-color: #fff;
+}
+
+    table tbody tr:nth-child(even) {
+        background-color: #ececec;
+    }
+
+    table tbody tr:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    table tbody tr.even {
+        background-color: #ececec;
+    }
+
+    table tbody tr.odd {
+        background-color: #fff;
+    }
+
+    table tbody tr.visible:nth-child(even) {
+        background-color: #ececec;
+    }
+
+    table tbody tr.visible:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    .center {
+        justify-content: center;
+        display: flex;
+    }
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: darkslategrey;
+    display: inline;
+    justify-content: center;
+}
