@@ -71,6 +71,7 @@ We started by exploring out data to see what if any trends existed within out da
 - The cancer mortality statistics have been gathered based on information from death certificates.
 - Years included: 1999 through 2019
  
+
 ### 2. [United States Smoking Percentages](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
 
 - Data Source: [Center for Disease Control](https://www.cdc.gov/)
@@ -119,23 +120,12 @@ We started by exploring out data to see what if any trends existed within out da
 | Kentucky - 25.79% | California - 11.88% |
 | Arkansas - 24.03% | Hawaii - 13.83% |
  
-*** Do we need a written out explanation? ***
-*** Need updated image here - this was for lung cancer
 
 #### What are the top states with the highest death rate of smokers with lung cancer?
   - Kentucky: 62.54%
   - Arkansas: 54.70%
   - Mississippi: 54.46%
 ![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Average_Age_Adjusted_Rate_Lung_Smoking_LR_Map.PNG)
-
-
-
-*** Where does this need to go? ***
-  - Mortality to incidence ratio: 0.23 
-![Mortality vs Incidence](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Mortality_vs_Incidence.PNG)
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,6 +137,7 @@ We started by exploring out data to see what if any trends existed within out da
 - Is there a relationship between cancer incidence and mortality rate to income?
   - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
   - Our dataset spans over 21 years and during this period, per capita income steadily increases due to inflation and economic expansion while cancer mortality rate decreased, most likely as a result of better screening and health care technology, all of these factors have contributed to the lower correlation between income and cancer mortality.
+
 ![Supervised Machine Learning Linear Regression R2 Model](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Supervised_ML_Linear_Regression_R2_5_Percent.png)
 
 ##### Lung Cancer Rates Compared to Smoking Percentages
@@ -177,10 +168,11 @@ We started by exploring out data to see what if any trends existed within out da
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Recommendations
+
+Based on our analysis, we recommend the use of the current data to review the following questions:
 - Further analysis can be done by including obesity rates and confirming how they may or may not contribute to morality and incidence rates of specific cancers.
-- 5 states with highest cancer rates?
-- 5 states with lowest cancer rates?
 - One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame.  Maybe analyze one-year data at the county level or ideally patient level.
+- Incorporate additional location data, zip codes for example, to further narrow the focus of the location based analysis.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
