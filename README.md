@@ -71,6 +71,7 @@ We started by exploring out data to see what if any trends existed within out da
 - The cancer mortality statistics have been gathered based on information from death certificates.
 - Years included: 1999 through 2019
  
+
 ### 2. [United States Smoking Percentages](https://www.statista.com/statistics/261595/us-states-with-highest-smoking-rates-among-adults/)
 
 - Data Source: [Center for Disease Control](https://www.cdc.gov/)
@@ -126,9 +127,6 @@ We started by exploring out data to see what if any trends existed within out da
   - Mississippi: 54.46%
 ![Average Age Adjusted Rate Lung_Smoking_LR Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Average_Age_Adjusted_Rate_Lung_Smoking_LR_Map.PNG)
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -170,6 +168,7 @@ We started by exploring out data to see what if any trends existed within out da
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Recommendations
+
 Based on our analysis, we recommend the use of the current data to review the following questions:
 - Further analysis can be done by including obesity rates and confirming how they may or may not contribute to morality and incidence rates of specific cancers.
 - One way to investigate the relationship between income and death rate further is to look at data within a smaller time frame.  Maybe analyze one-year data at the county level or ideally patient level.
