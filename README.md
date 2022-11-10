@@ -138,12 +138,12 @@ We started by exploring the dataset to see what if any trends existed. After det
 #### Linear Regression Models
 ##### Income
 - Is there a relationship between cancer incidence and mortality rate to income?
-  - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R@ of only 5%
+  - Our linear regression analysis shows little correlation between state, all cancer mortality rate, and state per capita income between 1999 and 2019 with R-square of only 5%
   - Our dataset spans over 21 years and during this period, per capita income steadily increases due to inflation and economic expansion while cancer mortality rate decreased, most likely as a result of better screening and health care technology, all of these factors have contributed to the lower correlation between income and cancer mortality.
 
 ![Supervised Machine Learning Linear Regression R2 Model](https://github.com/Lindsey-Maag/Group_Project_Health/blob/CB_1/Resources/Images/Supervised_ML_Linear_Regression_R2_5_Percent.png)
 
-##### Lung Cancer Rates Compared to Smoking Percentages
+##### Lung Cancer Death Rates Compared to Smoking Rate
 - Is there a relationship between lung cancer incidence and mortality rate to smoking percentages?
   - We investigated various cancer rate measurements as the target for our ML models.  We found that the age-adjusted mortality rate gave us the best results in our [linear regression](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinearRegression.ipynb) ML models.
    - In the [LinR_LungCancer_Smoking.ipynb notebook](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/LinR_LungCancer_Smoking.ipynb), we use the reported lung cancer death rate per 100,000 population as the independent variable for our linear regression ML model against smoking rate as the dependent variable.  In this case, our model produced an R-square of 57%.
@@ -153,7 +153,8 @@ We started by exploring the dataset to see what if any trends existed. After det
  - We started our model exploration with linear regression to test out the best target choice and get a better understanding of our core dataset.  We found good results with our linear regression model when we looked at the relationship between lung cancer death rates and smoking percentages.
 
 #### Multiple Regression Models
-Our Multiple Regression Models compared three different cancer-type mortality rates with income, smoking percentage, and obesity data. Data was split into training and test models the same as our linear regression models. Below is an example Seaborn Heat Map that was generated in the Lung Cancer Multiple Regression Model. The cross sections with darker colors indicate a very poor or negative relationships. Cross sections with lighter colors indicate positive relationships. Age-adjusted-rate and smoking percentage show the best relationship at 85%. The next highest relationship is smoking and obesity at 49%.
+Our Multiple Regression Models compared three different cancer-type mortality rates with income, smoking percentage, and obesity data. Data was split into training and test models the same as our linear regression models. Below is an example Seaborn Heat Map correlation table that was generated as part of our lung cancer multiple regression analysis. The cross sections with darker colors indicate negative relationships. For example, higher income results in lower cancer death rate. Cross sections with lighter colors indicate positive relationships. 
+In our sample correlation table, lung cancer death rate (Age-adjusted-rate) and smoking rate show the highest relationship at 85%. The next highest relationship is smoking and obesity at 49%.
 
 ![Multiple Regression Seaborn Heat Map](https://github.com/Lindsey-Maag/Group_Project_Health/blob/main/Resources/Images/mult_regression.PNG)
 
@@ -162,22 +163,23 @@ Our Multiple Regression Models compared three different cancer-type mortality ra
  - We achieved a training score of 75% and a testing score of 68% 
 ##### Colon Cancer Mortality
  - In this model colon cancer mortality rate was compared against our income, smoking, and obesity data sets. 
- - We achieved a training score of 56% and a testing score of 56%
+ - We achieved a training score of 56% and a testing score of 57%
 ##### Pancreatic Cancer Mortality
  - In this model pancreatic cancer mortality rate was compared against our income, smoking, and obesity data sets.
- - We achieved a training score of 56% and a testing score of 56%
+ - We achieved a training score of 16% and a testing score of 9%
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
 ## Results
 #### Linear Regression - Lung Cancer
-- Linear regression for lung cancer is 76% testing and 72% training
-- At 0.0% smoking rate, the lung cancer death rate would be 6.7 (intercept).
-- For every 0.2% of smoking percentage rate increase, there will be an increase of 1 on deathrate.
+- Linear regression for lung cancer is 72% training and 76% testing
+- At 0.0% smoking rate, the lung cancer death rate would be 4 in 100,000 (intercept).
+
 
 #### Multiple Regression
- - Multiple regression for lung cancer is 68% testing and 75% training. The higher training score compared to lower testing score is indicative or over-fitting.
- - Testing and training scores for the multiple regression models for Colon and Pancreatic cancers were all around 56%. 
+ - Multiple regression for lung cancer is 75% training and 68% testing. The higher training score compared to lower testing score is indicative of over-fitting.
+ - Testing and training scores for the multiple regression models for Colon and Rectum cancer is 56%. 
+  - For pancreas cancer, the training score is only 16% and testing score is 9%.  We interpret this results as income, smoking and obesity are not major contributing factors to pancreas cancer death. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
